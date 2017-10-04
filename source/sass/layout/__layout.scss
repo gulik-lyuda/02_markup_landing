@@ -1,6 +1,19 @@
+html{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body{
+    height: 100%;
+}
+
+.is-no-js {
+    display: none;
+}
+.no-js .is-no-js {
+    display: block;
+}
+
 @import "colors";
-@import "general";
 @import "header";
-@import "menu";
-@import "content"; //or some imports of files for separate blocks if we use BEM metodology
-@import "footer";
+@import "content";

@@ -1,0 +1,141 @@
+.page-header {
+  overflow: hidden;
+  margin: 0;
+
+  background: #494848 url('../images/backgrounds/header_background_2.png') no-repeat center center fixed;
+  background-size: cover;
+
+  color: #fff;
+
+  .icons {
+    padding: 50px 10% 165px 10%;
+
+    @media all and (min-width: 320px) and (max-width: 640px) {
+      padding-bottom: 80px;
+    }
+
+    .logo {
+      float: left;
+    }
+
+    .social_networks {
+      float: right;
+    }
+  }
+
+  h1 {
+    padding-bottom: 45px;
+    margin: 0;
+    text-align: center;
+
+    font: 45px/60px 'Raleway', 'Arial', sans-serif;
+
+    @media all and (min-width: 640px) and (max-width: 980px) {
+      font-size: 34px;
+      line-height: 45px;
+    }
+
+    @media all and (min-width: 320px) and (max-width: 640px) {
+      font-size: 26px;
+      line-height: 37px;
+    }
+  }
+  .description {
+    padding-bottom: 70px;
+    text-align: center;
+
+    font: 20px/30px 'Source Sans Pro', 'Verdana', sans-serif;
+
+    @media all and (min-width: 640px) and (max-width: 980px) {
+      font-size: 18px;
+      line-height: 28px;
+    }
+
+    @media all and (min-width: 320px) and (max-width: 640px) {
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    p {
+      max-width: 695px;
+      margin: 0 auto;
+    }
+  } //.description
+
+  .subscription-form {
+    width: 100%;
+    padding-bottom: 10px;
+
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  } //.subscription-form
+
+  .sub-heading {
+    width: 265px;
+    margin: 0 auto;
+    padding-top: 10px;
+    transform: translate(85px, 0);
+
+    font: 16px/30px 'Source Sans Pro', 'Verdana', sans-serif;
+
+    background: url(../images/icons/arrow_icon.png) 100% -10% no-repeat;
+
+    @media all and (min-width: 320px) and (max-width: 640px) {
+      margin: 0;
+      transform: translate(15px, -10px);
+
+      background: url(../images/icons/arrow_icon.png) 100% 5% no-repeat;
+    }
+  } //.sub-heading
+} //.page-header
+
+.fm-get-started {
+  max-width: 946px;
+  margin: 0 auto;
+  overflow: hidden;
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  .form-control {
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 1);
+
+    border-color: rgba(1, 153, 230, 0.3);
+    box-shadow: inset 3px 0 $blue_color;
+
+    float: left;
+    width: 20%;
+    height: 54px;
+    margin: 25px 0 25px 20px;
+
+    @media all and (min-width: 320px) and (max-width: 640px) {
+      float: none;
+      width: 80%;
+      margin: 25px auto;
+    }
+  }
+
+  .btn-lg {
+    width: 23%;
+    float: right;
+    height: 54px;
+    margin: 25px 20px;
+
+    @media all and (min-width: 640px) and (max-width: 980px) {
+    font-size: 16px;
+  }
+
+    @media all and (min-width: 320px) and (max-width: 640px) {
+      float: none;
+      width: 80%;
+      margin: 25px auto;
+    }
+  }
+} //.fm-get-started
+
+.blue_font {
+  color: $blue_color;
+}
+
