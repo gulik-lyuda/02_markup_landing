@@ -1,4 +1,10 @@
 /*General styles for the difference blocks*/
+html, 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .white_bg {
   background-color: #fff;
 }
@@ -94,7 +100,7 @@ li {
 
       @media all and (min-width: 320px) and (max-width: 800px) {
         clear: both;
-        max-width: 100%;
+        max-width: 95%;
 
         padding-bottom: 25px;
       }
